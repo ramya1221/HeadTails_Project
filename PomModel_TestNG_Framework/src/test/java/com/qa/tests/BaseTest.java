@@ -26,6 +26,7 @@ public class BaseTest extends BaseClass{
  HeadTailsTest headTailsTest;
  SearchPage searchPage;
  ProductPage productPage;
+ 
  @BeforeTest
  public void setup() throws IOException {
    bc = new BaseClass();
